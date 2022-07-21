@@ -1,8 +1,7 @@
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import { TbDownload } from "react-icons/tb";
-
-import Programming from "../Images/programming.svg";
+import Programming from "../Resources/Images/programming.svg";
 import HomeIcons from "./HomeIcons";
 
 function Intro() {
@@ -21,10 +20,21 @@ function Intro() {
             </p>
             <div className="d-sm-flex p-2 justify-content-center align-items-center justify-content-sm-start">
               <ButtonGroup aria-label="resume" className="me-3 py-3">
-                <Button variant="btn btn-theme-purple" size="lg">
+                <Button
+                  variant="btn btn-theme-purple"
+                  size="lg"
+                  href={require("../Resources/Documents/RESUME_Bryann.pdf")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Resume
                 </Button>
-                <Button variant="btn btn-theme-purple" size="lg">
+                <Button
+                  variant="btn btn-theme-purple"
+                  size="lg"
+                  href={require("../Resources/Documents/RESUME_Bryann.pdf")}
+                  download="RESUME_Bryann"
+                >
                   <div className="d-flex">
                     <TbDownload />
                   </div>
