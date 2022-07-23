@@ -1,0 +1,79 @@
+.hideME {
+  visibility: hidden;
+}
+
+.theme-purple {
+  color: #6c63ff;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #8d87fa !important;
+}
+
+.btn-theme-purple {
+  font-weight: 5000 !important;
+  color: #6c63ff !important;
+  border: 1px #6c63ff solid !important;
+}
+.btn-theme-purple:hover {
+  color: #262534 !important;
+  background-color: #6c63ff !important;
+  background: linear-gradient(180deg, #8d87fa, #5349ff);
+}
+
+.btn-send-email {
+  font-weight: 5000 !important;
+  color: #2e26c8 !important;
+  border: 3px #3f3d56 solid !important;
+  border-radius: 10px !important;
+}
+.btn-send-email:hover {
+  color: #262534 !important;
+  background-color: #6c63ff !important;
+  background: linear-gradient(180deg, #8d87fa, #5349ff);
+}
+
+.levitate:hover {
+  animation-name: levitate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.ai-icons {
+  margin: 0.75em;
+  color: #8d87fa;
+}
+
+.ai-icons:hover {
+  color: #5349ff;
+}
+
+.svg {
+  width: 40%;
+}
+
+.contact-form {
+  color: #3f3d56 !important;
+  background-color: #73709e !important;
+  border-radius: 25px !important;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: montserrat, sans-serif !important;
+  background-color: #f2f2f2 !important;
+}

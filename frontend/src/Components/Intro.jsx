@@ -35,8 +35,8 @@ function Intro() {
                   href={require("../Resources/Documents/RESUME_Bryann.pdf")}
                   download="RESUME_Bryann"
                 >
-                  <div className="d-flex">
-                    <TbDownload />
+                  <div>
+                    <TbDownload className="align-baseline" />
                   </div>
                 </Button>
               </ButtonGroup>

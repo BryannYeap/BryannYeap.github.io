@@ -5,9 +5,9 @@ import Container from "react-bootstrap/Container";
 function CustomNavbar() {
   return (
     <div>
-      <Navbar bg="theme-grey" variant="dark" expand="lg">
+      <Navbar variant="dark" expand="lg" className="shadow p-3 ">
         <Container>
-          <Navbar.Brand href="index.html">Home</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="collapsable-navbar" />
           <Navbar.Collapse id="collapsable-navbar">
             <Nav className="ms-auto">

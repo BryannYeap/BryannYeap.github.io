@@ -12,6 +12,7 @@ function HomeIcons() {
           href="https://github.com/BryannYeap"
           target="_blank"
           rel="noopener noreferrer"
+          className="levitate"
         >
           <AiOutlineGithub className="ai-icons" />
         </a>
@@ -19,6 +20,7 @@ function HomeIcons() {
           href="https://www.linkedin.com/in/bryann-yeap/"
           target="_blank"
           rel="noopener noreferrer"
+          className="levitate"
         >
           <AiOutlineLinkedin className="ai-icons" />
         </a>
@@ -26,10 +28,16 @@ function HomeIcons() {
           href="mailto: bryannyeapkk@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="levitate"
         >
           <AiOutlineMail className="ai-icons" />
         </a>
-        <a href="tel: +6587773411" target="_blank" rel="noopener noreferrer">
+        <a
+          href="tel: +6587773411"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="levitate"
+        >
           <AiOutlinePhone className="ai-icons" />
         </a>
       </IconContext.Provider>
