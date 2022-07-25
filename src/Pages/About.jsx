@@ -1,3 +1,4 @@
+import React from "react";
 import CustomNavbar from "../Components/CustomNavbar";
 
 function About() {

@@ -1,3 +1,4 @@
+import React from "react";
 import { IconContext } from "react-icons";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
