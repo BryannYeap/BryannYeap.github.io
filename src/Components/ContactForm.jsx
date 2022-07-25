@@ -1,67 +1,44 @@
-import { useState } from "react";
+import { useRef } from "react";
 import { BiMailSend } from "react-icons/bi";
 import { toast } from "react-toastify";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
+import emailjs from "emailjs-com";
 
 function ContactForm() {
-  const initialContactFormState = {
-    fullName: "",
-    email: "",
-    subject: "",
-    message: "",
-  };
-  const [contactFormState, setContactFormState] = useState(
-    initialContactFormState
-  );
-  const { fullName, email, subject, message } = contactFormState;
-
-  const handleOnChange = (e) => {
-    setContactFormState({
-      ...contactFormState,
-      [e.target.name]: e.target.value,
-    });
-    console.log(contactFormState);
-  };
+  const form = useRef();
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
 
-    fetch("/send", {
-      method: "POST",
-      body: JSON.stringify(contactFormState),
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-    })
-      .then((response) => response.json())
-      .then((response) => {
-        if (response.status === "success") {
-          setContactFormState({
-            ...initialContactFormState,
-          });
-          toast.success("Your message has been sent!");
-        } else if (response.status === "fail") {
-          setContactFormState({
-            ...initialContactFormState,
-          });
-          toast.error("Your message failed to send...");
+    emailjs
+      .sendForm(
+        "service_1ajaj9a",
+        "template_j8q2hwj",
+        form.current,
+        "Ay81s70M7i2HDqqjh"
+      )
+      .then(
+        (result) => {
+          toast.success("Your email was successfully sent!");
+        },
+        (error) => {
+          toast.error("Your email failed to send!");
         }
-      });
+      );
+
+    e.target.reset();
   };
 
   return (
-    <Form className="p-2" onSubmit={handleOnSubmit}>
+    <Form className="p-2" ref={form} onSubmit={handleOnSubmit}>
       <Form.Group className="mb-3" controlId="fullName">
         <FloatingLabel label="Full Name">
           <Form.Control
             type="text"
             placeholder="Full Name"
-            onChange={handleOnChange}
             name="fullName"
-            value={fullName}
             required
           />
         </FloatingLabel>
@@ -72,9 +49,7 @@ function ContactForm() {
           <Form.Control
             type="email"
             placeholder="Email Address"
-            onChange={handleOnChange}
             name="email"
-            value={email}
             required
           />
         </FloatingLabel>
@@ -85,9 +60,7 @@ function ContactForm() {
           <Form.Control
             type="text"
             placeholder="Subject"
-            onChange={handleOnChange}
             name="subject"
-            value={subject}
             required
           />
         </FloatingLabel>
@@ -98,9 +71,7 @@ function ContactForm() {
           as="textarea"
           rows="8"
           placeholder="Message"
-          onChange={handleOnChange}
           name="message"
-          value={message}
           required
         />
       </Form.Group>
