@@ -2,10 +2,35 @@
   visibility: hidden;
 }
 
+.font-montserrat {
+  font-family: montserrat, sans-serif;
+}
+
+.font-verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .theme-purple {
   color: #6c63ff;
 }
 
+.theme-dark-purple {
+  color: #5349ff;
+}
+
+.bg-theme-dark {
+  background-color: #262534;
+}
+
+.bg-theme-white {
+  background-color: #f2f2f2;
+}
+
+.bg-theme-grey {
+  background-color: #bbbbbb;
+}
+
+.theme-light-purple,
 .nav-link,
 .navbar-brand {
   color: #8d87fa !important;
@@ -71,9 +96,12 @@
   border-radius: 25px !important;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  font-family: montserrat, sans-serif !important;
-  background-color: #f2f2f2 !important;
+.circle-portrait {
+  background-image: url("./Resources/Images/Portrait.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 15px 20px 60px #5349ff;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import CustomNavbar from "../Components/CustomNavbar";
-import ContactCard from "../Components/ContactCard";
+import ContactCard from "../Components/Contact/ContactCard";
 
 function Contact() {
   return (

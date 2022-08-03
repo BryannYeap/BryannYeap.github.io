@@ -33,7 +33,7 @@ function ContactForm() {
   };
 
   return (
-    <Form className="p-2" ref={form} onSubmit={handleOnSubmit}>
+    <Form className="p-2 font-montserrat" ref={form} onSubmit={handleOnSubmit}>
       <Form.Group className="mb-3" controlId="fullName">
         <FloatingLabel label="Full Name">
           <Form.Control
