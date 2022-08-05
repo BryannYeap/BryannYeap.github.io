@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { BiMailSend } from "react-icons/bi";
+import { IoMdSend } from "react-icons/io";
 import { toast } from "react-toastify";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -77,8 +77,8 @@ function ContactForm() {
         />
       </Form.Group>
 
-      <Button variant="btn btn-send-email" type="submit">
-        <BiMailSend size={30} />
+      <Button variant="btn btn-send-email" type="submit" className="px-3">
+        <IoMdSend size={30} />
       </Button>
     </Form>
   );
