@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 function CustomNavbar() {
   return (
     <div>
-      <Navbar variant="dark" expand="lg" className="shadow p-3 ">
+      <Navbar variant="dark" expand="lg" className="shadow p-3">
         <Container>
           <Navbar.Brand href="/">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="collapsable-navbar" />
@@ -17,9 +17,6 @@ function CustomNavbar() {
               </Nav.Link>
               <Nav.Link className="px-4" href="/projects">
                 Projects
-              </Nav.Link>
-              <Nav.Link className="px-4" href="/experience">
-                Experience
               </Nav.Link>
               <Nav.Link className="px-4" href="/contact-me">
                 Contact Me

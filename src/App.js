@@ -4,7 +4,6 @@ import "react-toastify/dist/ReactToastify.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
-import Experience from "./Pages/Experience";
 import Contact from "./Pages/Contact";
 import "./App.css";
 
@@ -19,7 +18,6 @@ class App extends React.Component {
             <Route path="/" element={<Home />} />
             <Route path="/about-me" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
             <Route path="/contact-me" element={<Contact />} />
           </Routes>
         </Router>

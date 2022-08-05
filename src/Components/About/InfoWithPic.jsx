@@ -16,30 +16,30 @@ function InfoWithPic() {
               </strong>
             </h3>
           </p>
-          <p className="my-5" style={{ fontSize: "1.2rem" }}>
+          <p className="my-4 lead">
             I'm an undergraduate student studying at the{" "}
-            <span className="lead theme-purple">
+            <span className="theme-purple">
               National University of Singapore
             </span>
             , and I'm currently pursuing a Bachelor of Computing in Computer
             Science. I aim to be a software engineer in the future, with
             interests leaning toward{" "}
-            <span className="lead theme-purple">
+            <span className="theme-purple">
               back-end development, computer networking, and database systems
             </span>
             . However, I do try to dabble in a little front-end too, as seen
             from this portfolio website!
           </p>
-          <p style={{ fontSize: "1.2rem" }}>
+          <p className="lead">
             I am someone who always likes to explore around and try out
             different{" "}
-            <span className="lead theme-purple">
+            <span className="theme-purple">
               libraries, frameworks, tools, and languages
             </span>{" "}
             that I've not used before. As such, if you scroll down, you will see
             the many different tech stacks that I've had the pleasure of
             utilizing{" "}
-            <span className="lead theme-purple">
+            <span className="theme-purple">
               across a myriad of varying projects
             </span>
             . Generally, the technologies listed at the top are those that I

@@ -1,7 +1,3 @@
-.hideME {
-  visibility: hidden;
-}
-
 .font-montserrat {
   font-family: montserrat, sans-serif;
 }
@@ -10,12 +6,24 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.font-gill {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .theme-purple {
   color: #6c63ff;
 }
 
 .theme-dark-purple {
   color: #5349ff;
+}
+
+.theme-white {
+  color: #f2f2f2;
+}
+
+.theme-bg {
+  color: #3f3d56;
 }
 
 .bg-theme-dark {
@@ -50,8 +58,8 @@
 .btn-send-email {
   font-weight: 5000 !important;
   color: #2e26c8 !important;
-  border: 3px #3f3d56 solid !important;
-  border-radius: 10px !important;
+  border: 2px #3f3d56 solid !important;
+  border-radius: 8px !important;
 }
 .btn-send-email:hover {
   color: #262534 !important;
@@ -104,4 +112,27 @@
   width: 300px;
   border-radius: 50%;
   box-shadow: 15px 20px 60px #5349ff;
+}
+
+.gradient-underline {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #5349ff, #8d87fa);
+  border-radius: 5px;
+}
+
+body {
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

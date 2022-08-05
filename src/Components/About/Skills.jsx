@@ -20,6 +20,7 @@ import {
   SiCsharp,
   SiCodio,
   SiSpringboot,
+  SiBootstrap,
   SiExpress,
   SiUnity,
   SiGithub,
@@ -34,7 +35,7 @@ import { FaSwift } from "react-icons/fa";
 
 function Skills() {
   return (
-    <section className="p-5 bg-theme-grey">
+    <section className="parent p-5 bg-theme-grey">
       <IconContext.Provider value={{ size: 50 }}>
         <Container>
           <Row className="text-center">
@@ -64,6 +65,7 @@ function Skills() {
                   { icon: <SiSpringboot />, name: "Spring Boot" },
                   { icon: <DiReact />, name: "ReactJS" },
                   { icon: <FaSwift />, name: "SwiftUI" },
+                  { icon: <SiBootstrap />, name: "Bootstrap 5" },
                   { icon: <SiExpress />, name: "Express.js" },
                   { icon: <SiUnity />, name: "Unity" },
                 ]}
