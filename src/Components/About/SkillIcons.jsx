@@ -9,7 +9,7 @@ function SkillIcons({ iconObjectArray }) {
       <Row>
         {iconObjectArray.map((iconObject) => {
           return (
-            <Col key={iconObject.name} lg={4} className="p-1">
+            <Col key={iconObject.name} lg={4} className="p-1 grow">
               <h1>{iconObject.icon}</h1>
               <div className="font-gill">{iconObject.name}</div>
             </Col>
