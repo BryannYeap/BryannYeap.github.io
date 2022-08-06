@@ -15,13 +15,13 @@ function CustomNavbar() {
           <Navbar.Toggle aria-controls="collapsable-navbar" />
           <Navbar.Collapse id="collapsable-navbar">
             <Nav className="ms-auto">
-              <Nav.Link className="px-4 grow" href="/about-me">
+              <Nav.Link className="px-4 grow" href="/#/about-me">
                 About Me
               </Nav.Link>
-              <Nav.Link className="px-4 grow" href="/projects">
+              <Nav.Link className="px-4 grow" href="/#/projects">
                 Projects
               </Nav.Link>
-              <Nav.Link className="px-4 grow" href="/contact-me">
+              <Nav.Link className="px-4 grow" href="/#/contact-me">
                 Contact Me
               </Nav.Link>
             </Nav>

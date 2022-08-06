@@ -5,7 +5,7 @@ import Skills from "../Components/About/Skills";
 
 function About() {
   return (
-    <div>
+    <div className="fade">
       <CustomNavbar />
       <InfoWithPic />
       <Skills />

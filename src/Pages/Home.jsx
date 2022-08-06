@@ -4,7 +4,7 @@ import Intro from "../Components/Home/Intro";
 
 function Home() {
   return (
-    <div>
+    <div className="fade">
       <CustomNavbar />
       <Intro />
     </div>

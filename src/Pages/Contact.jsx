@@ -4,7 +4,7 @@ import ContactCard from "../Components/Contact/ContactCard";
 
 function Contact() {
   return (
-    <div>
+    <div className="fade">
       <CustomNavbar />
       <ContactCard />
     </div>

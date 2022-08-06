@@ -47,7 +47,7 @@ function Projects() {
   ];
 
   return (
-    <div>
+    <div className="fade">
       <CustomNavbar />
       <ProjectHeader />
       <ProjectBody projectObjectArray={projectObjectArray} />
