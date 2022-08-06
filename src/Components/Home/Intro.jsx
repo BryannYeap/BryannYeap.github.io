@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import { TbDownload } from "react-icons/tb";
 import Programming from "../../Resources/Images/programming.svg";
+import Resume from "../../Resources/Documents/RESUME_Bryann.pdf";
 import HomeIcons from "./HomeIcons";
 
 function Intro() {
@@ -24,7 +25,7 @@ function Intro() {
                 <Button
                   variant="btn btn-theme-purple"
                   size="lg"
-                  href={require("../../Resources/Documents/RESUME_Bryann.pdf")}
+                  href={Resume}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -33,7 +34,7 @@ function Intro() {
                 <Button
                   variant="btn btn-theme-purple"
                   size="lg"
-                  href={require("../../Resources/Documents/RESUME_Bryann.pdf")}
+                  href={Resume}
                   download="RESUME_Bryann"
                 >
                   <div>
