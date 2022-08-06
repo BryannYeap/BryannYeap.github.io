@@ -9,13 +9,13 @@ function InfoWithPic() {
           <div className="circle-portrait"></div>
         </div>
         <div className="text-start mx-2">
-          <p>
-            <h3 className="font-verdana">
+          <h3 className="font-verdana">
+            <p>
               <strong>
                 Hello! I'm <span className="theme-purple">Bryann</span>
               </strong>
-            </h3>
-          </p>
+            </p>
+          </h3>
           <p className="my-4 lead">
             I'm an undergraduate student studying at the{" "}
             <span className="theme-purple">

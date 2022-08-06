@@ -11,7 +11,7 @@ function SkillIcons({ iconObjectArray }) {
           return (
             <Col key={iconObject.name} lg={4} className="p-1">
               <h1>{iconObject.icon}</h1>
-              <div>{iconObject.name}</div>
+              <div className="font-gill">{iconObject.name}</div>
             </Col>
           );
         })}
