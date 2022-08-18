@@ -30,6 +30,7 @@ import {
   SiPostman,
   SiHeroku,
   SiNetlify,
+  SiFigma,
 } from "react-icons/si";
 import { FaSwift } from "react-icons/fa";
 
@@ -85,6 +86,7 @@ function Skills() {
                   { icon: <SiMongodb />, name: "MongoDB" },
                   { icon: <SiHeroku />, name: "Heroku" },
                   { icon: <SiNetlify />, name: "Netlify" },
+                  { icon: <SiFigma />, name: "Figma" },
                 ]}
               ></SkillCard>
             </Col>
