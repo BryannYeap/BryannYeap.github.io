@@ -9,7 +9,6 @@ import {
   DiJava,
   DiSwift,
   DiPython,
-  DiJsBadge,
   DiHtml5,
   DiCss3,
   DiGo,
@@ -18,6 +17,7 @@ import {
 } from "react-icons/di";
 import {
   SiCsharp,
+  SiTypescript,
   SiCodio,
   SiSpringboot,
   SiBootstrap,
@@ -27,12 +27,13 @@ import {
   SiGit,
   SiPostgresql,
   SiMongodb,
-  SiPostman,
   SiHeroku,
   SiNetlify,
   SiFigma,
+  SiPrisma
 } from "react-icons/si";
 import { FaSwift } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
 
 function Skills() {
   return (
@@ -50,7 +51,7 @@ function Skills() {
                   { icon: <DiPython />, name: "Python" },
                   { icon: <DiHtml5 />, name: "HTML5" },
                   { icon: <DiCss3 />, name: "CSS3" },
-                  { icon: <DiJsBadge />, name: "JavaScript" },
+                  { icon: <SiTypescript />, name: "TypeScript" },
                   { icon: <SiCsharp />, name: "C Sharp" },
                   { icon: <SiCodio />, name: "C Language" },
                   { icon: <DiGo />, name: "Go" },
@@ -68,6 +69,7 @@ function Skills() {
                   { icon: <FaSwift />, name: "SwiftUI" },
                   { icon: <SiBootstrap />, name: "Bootstrap 5" },
                   { icon: <SiExpress />, name: "Express.js" },
+                  { icon: <TbBrandNextjs />, name: "Next.js" },
                   { icon: <SiUnity />, name: "Unity" },
                 ]}
               ></SkillCard>
@@ -80,7 +82,7 @@ function Skills() {
                 iconObjectArray={[
                   { icon: <SiGithub />, name: "GitHub" },
                   { icon: <SiGit />, name: "Git" },
-                  { icon: <SiPostman />, name: "Postman" },
+                  { icon: <SiPrisma />, name: "Prisma" },
                   { icon: <SiPostgresql />, name: "PostgreSQL" },
                   { icon: <DiMysql />, name: "MySQL" },
                   { icon: <SiMongodb />, name: "MongoDB" },
