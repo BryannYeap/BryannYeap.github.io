@@ -18,7 +18,7 @@ function Projects() {
     {
       title: "A Hero's Tale",
       demoVideo: "https://www.youtube.com/embed/Yf-hKY3F28Q",
-      text: "My first ever project, made for an independent software development module at school. This is a 2D side-scrolling RPG and platformer game with elements of combat, puzzle-solving, and parkour. I wrote the all the code, while my partner drew virtually all of the art shown in the game. This project was written in C#, making use of the Unity Game Engine, and deployed on Unity Play with WebGL. To find out more, watch the demo video above.",
+      text: "My first ever project, made for an independent software development module at school. This is a 2D side-scrolling RPG and platformer game with elements of combat, puzzle-solving, and parkour. The game garnered a total of over 60 plays and almost 100 impressions. This project was written in C#, making use of the Unity Game Engine, and deployed on Unity Play with WebGL. To find out more, watch the demo video above.",
       projectLink: "https://play.unity.com/mg/other/a-hero-s-tale-v1-1",
       githubLink:
         "https://github.com/BryannYeap/a-heros-tale/tree/master/Assets/Scripts",
