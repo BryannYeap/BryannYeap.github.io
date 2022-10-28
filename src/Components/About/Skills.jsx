@@ -14,6 +14,7 @@ import {
   DiGo,
   DiReact,
   DiMysql,
+  DiSpark,
 } from "react-icons/di";
 import {
   SiCsharp,
@@ -30,10 +31,11 @@ import {
   SiHeroku,
   SiNetlify,
   SiFigma,
-  SiPrisma
+  SiPrisma,
 } from "react-icons/si";
 import { FaSwift } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { GrHadoop } from "react-icons/gr";
 
 function Skills() {
   return (
@@ -65,11 +67,13 @@ function Skills() {
                 title="Libraries and Frameworks"
                 iconObjectArray={[
                   { icon: <SiSpringboot />, name: "Spring Boot" },
+                  { icon: <TbBrandNextjs />, name: "Next.js" },
                   { icon: <DiReact />, name: "ReactJS" },
+                  { icon: <GrHadoop />, name: "Hadoop" },
+                  { icon: <DiSpark />, name: "Spark" },
                   { icon: <FaSwift />, name: "SwiftUI" },
                   { icon: <SiBootstrap />, name: "Bootstrap 5" },
                   { icon: <SiExpress />, name: "Express.js" },
-                  { icon: <TbBrandNextjs />, name: "Next.js" },
                   { icon: <SiUnity />, name: "Unity" },
                 ]}
               ></SkillCard>

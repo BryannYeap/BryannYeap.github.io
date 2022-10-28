@@ -60,18 +60,20 @@ function ProjectCard({
             <strong className="font-montserrat">Check it out!</strong>
           </Button>
         )}
-        <Button
-          variant="btn btn-theme-purple"
-          href={githubLink}
-          target="_blank"
-        >
-          <strong className="font-montserrat">
-            <div>
-              <FaCode size={18} />
-            </div>
-            See the code!
-          </strong>
-        </Button>
+        {githubLink.length !== 0 && (
+          <Button
+            variant="btn btn-theme-purple"
+            href={githubLink}
+            target="_blank"
+          >
+            <strong className="font-montserrat">
+              <div>
+                <FaCode size={18} />
+              </div>
+              See the code!
+            </strong>
+          </Button>
+        )}
       </Card.Footer>
     </Card>
   );
