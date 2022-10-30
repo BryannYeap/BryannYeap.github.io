@@ -26,7 +26,7 @@ function Projects() {
     {
       title: "Peggle",
       demoVideo: "https://www.youtube.com/embed/Ba90svvAExE",
-      text: "This project is a Peggle clone made for an advanced Software Engineering module in school. This project was written in Swift, using the MVVM pattern, and rendered using SwiftUI. This project involved coding an entire physics engine and game engine from scratch and thus required programmatically solving many physics-based problems such as gravity, collision detection, collision resolution, restitution, and more. It was also developed with many design patterns. Unfortunately, since this is an iOS application that is not on the Apple app store, you will not be able to try it out.",
+      text: "This project is a Peggle clone made for an advanced Software Engineering module in school. This project was written in Swift, and rendered using SwiftUI. It involved coding an entire physics engine and game engine from scratch and thus required programmatically solving many physics-based problems such as gravity, collision detection, collision resolution, restitution, and more. Unfortunately, since this is an iOS application that is not on the Apple app store, you will not be able to try it out. However, do watch the demo video above if you're interested in the final product!",
       projectLink: "",
       githubLink: "https://github.com/BryannYeap/Peggle",
     },

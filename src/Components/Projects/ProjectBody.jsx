@@ -10,7 +10,7 @@ function ProjectBody({ projectObjectArray }) {
       <Row>
         {projectObjectArray.map((projectObject) => {
           return (
-            <Col key={projectObject.title} lg={6}>
+            <Col key={projectObject.title} lg={6} className="mt-4">
               <ProjectCard
                 title={projectObject.title}
                 demoVideo={projectObject.demoVideo}

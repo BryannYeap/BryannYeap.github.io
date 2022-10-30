@@ -18,7 +18,7 @@ function ProjectCard({
         borderWidth: "3px",
         borderColor: "#5349ff",
       }}
-      className="my-3 theme-bg"
+      className="theme-bg h-100"
       bg="light"
     >
       <Card.Body>
