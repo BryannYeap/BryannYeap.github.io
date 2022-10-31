@@ -4,6 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
+import ReactGA from "react-ga";
 
 function HomeIcons() {
   return (
@@ -14,6 +15,12 @@ function HomeIcons() {
           target="_blank"
           rel="noopener noreferrer"
           className="levitate"
+          onClick={() => {
+            ReactGA.event({
+              category: "engagement",
+              action: "Click GitHub",
+            });
+          }}
         >
           <AiOutlineGithub className="ai-icons" />
         </a>
@@ -22,6 +29,12 @@ function HomeIcons() {
           target="_blank"
           rel="noopener noreferrer"
           className="levitate"
+          onClick={() => {
+            ReactGA.event({
+              category: "engagement",
+              action: "Click LinkedIn",
+            });
+          }}
         >
           <AiOutlineLinkedin className="ai-icons" />
         </a>
@@ -30,6 +43,12 @@ function HomeIcons() {
           target="_blank"
           rel="noopener noreferrer"
           className="levitate"
+          onClick={() => {
+            ReactGA.event({
+              category: "engagement",
+              action: "Click Email",
+            });
+          }}
         >
           <AiOutlineMail className="ai-icons" />
         </a>
@@ -38,6 +57,12 @@ function HomeIcons() {
           target="_blank"
           rel="noopener noreferrer"
           className="levitate"
+          onClick={() => {
+            ReactGA.event({
+              category: "engagement",
+              action: "Click Phone",
+            });
+          }}
         >
           <AiOutlinePhone className="ai-icons" />
         </a>

@@ -5,6 +5,7 @@ import { TbDownload } from "react-icons/tb";
 import Programming from "../../Resources/Images/programming.svg";
 import Resume from "../../Resources/Documents/RESUME_Bryann.pdf";
 import HomeIcons from "./HomeIcons";
+import ReactGA from "react-ga";
 
 function Intro() {
   return (
@@ -28,6 +29,12 @@ function Intro() {
                   href={Resume}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "engagement",
+                      action: "View resume",
+                    });
+                  }}
                 >
                   View Resume
                 </Button>
@@ -36,6 +43,12 @@ function Intro() {
                   size="lg"
                   href={Resume}
                   download="RESUME_Bryann"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "engagement",
+                      action: "Download resume",
+                    });
+                  }}
                 >
                   <div>
                     <TbDownload className="align-baseline" />

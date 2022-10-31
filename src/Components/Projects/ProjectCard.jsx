@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { FaPlayCircle, FaCode } from "react-icons/fa";
+import ReactGA from "react-ga";
 
 function ProjectCard({
   title,
@@ -53,6 +54,12 @@ function ProjectCard({
             variant="btn btn-theme-purple"
             href={projectLink}
             target="_blank"
+            onClick={() => {
+              ReactGA.event({
+                category: "engagement",
+                action: "Click project link",
+              });
+            }}
           >
             <div>
               <FaPlayCircle size={18} />
@@ -65,6 +72,12 @@ function ProjectCard({
             variant="btn btn-theme-purple"
             href={githubLink}
             target="_blank"
+            onClick={() => {
+              ReactGA.event({
+                category: "engagement",
+                action: "See project code on GitHub",
+              });
+            }}
           >
             <strong className="font-montserrat">
               <div>
