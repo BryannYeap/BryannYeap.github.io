@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3304e6c6.css",
-    "main.js": "/static/js/main.2844a57b.js",
+    "main.js": "/static/js/main.82e857ea.js",
     "static/media/GivingCoupons.PNG": "/static/media/GivingCoupons.e2cbc2e876d66d770177.PNG",
     "static/media/Logo.png": "/static/media/Logo.b6bb9cf48decc847641b.png",
     "static/media/RESUME_Bryann.pdf": "/static/media/RESUME_Bryann.cec984433d0998702923.pdf",
@@ -11,10 +11,10 @@
     "static/media/programming.svg": "/static/media/programming.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "index.html": "/index.html",
     "main.3304e6c6.css.map": "/static/css/main.3304e6c6.css.map",
-    "main.2844a57b.js.map": "/static/js/main.2844a57b.js.map"
+    "main.82e857ea.js.map": "/static/js/main.82e857ea.js.map"
   },
   "entrypoints": [
     "static/css/main.3304e6c6.css",
-    "static/js/main.2844a57b.js"
+    "static/js/main.82e857ea.js"
   ]
 }
