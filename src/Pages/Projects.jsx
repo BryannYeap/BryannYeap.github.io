@@ -2,12 +2,20 @@ import React from "react";
 import CustomNavbar from "../Components/CustomNavbar";
 import ProjectBody from "../Components/Projects/ProjectBody";
 import ProjectHeader from "../Components/Projects/ProjectHeader";
+import TechOffersRepo from "../Resources/Images/TechOffersRepo.PNG";
 import GivingCoupons from "../Resources/Images/GivingCoupons.PNG";
 import HangmanImage from "../Resources/Images/HangmanImage.PNG";
 import PersonalPortfolioImage from "../Resources/Images/PersonalPortfolioImage.PNG";
 
 function Projects() {
   const projectObjectArray = [
+    {
+      title: "Tech Offers Repo",
+      image: TechOffersRepo,
+      text: "In partnership with the Tech Interview Handbook (>80k stars on GitHub), my team and I created the Tech Offers Repo. The Tech Offers Repo allows job hunters to more accurately benchmark their offers against other relevant job offers by providing more context behind them. This project utilises the T3 Stack, comprised of React, Tailwind, TypeScript, tRPC, Prisma, and is deployed on Vercel.",
+      projectLink: "https://app.techinterviewhandbook.org/offers",
+      githubLink: "https://github.com/yangshun/tech-interview-handbook",
+    },
     {
       title: "Giving Coupons",
       image: GivingCoupons,
