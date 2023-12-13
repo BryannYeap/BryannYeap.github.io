@@ -14,7 +14,6 @@ import {
   DiGo,
   DiReact,
   DiMysql,
-  DiSpark,
 } from "react-icons/di";
 import {
   SiCsharp,
@@ -28,14 +27,15 @@ import {
   SiGit,
   SiPostgresql,
   SiMongodb,
-  SiHeroku,
-  SiNetlify,
+  SiDocker,
+  SiRedis,
   SiFigma,
   SiPrisma,
+  SiNestjs,
+  SiTailwindcss,
 } from "react-icons/si";
 import { FaSwift } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
-import { GrHadoop } from "react-icons/gr";
 
 function Skills() {
   return (
@@ -66,11 +66,11 @@ function Skills() {
                 icon={<VscFolderLibrary />}
                 title="Libraries and Frameworks"
                 iconObjectArray={[
+                  { icon: <DiReact />, name: "ReactJS" },
                   { icon: <SiSpringboot />, name: "Spring Boot" },
                   { icon: <TbBrandNextjs />, name: "Next.js" },
-                  { icon: <DiReact />, name: "ReactJS" },
-                  { icon: <GrHadoop />, name: "Hadoop" },
-                  { icon: <DiSpark />, name: "Spark" },
+                  { icon: <SiTailwindcss />, name: "TailwindCSS" },
+                  { icon: <SiNestjs />, name: "NestJS" },
                   { icon: <FaSwift />, name: "SwiftUI" },
                   { icon: <SiBootstrap />, name: "Bootstrap 5" },
                   { icon: <SiExpress />, name: "Express.js" },
@@ -90,8 +90,8 @@ function Skills() {
                   { icon: <SiPostgresql />, name: "PostgreSQL" },
                   { icon: <DiMysql />, name: "MySQL" },
                   { icon: <SiMongodb />, name: "MongoDB" },
-                  { icon: <SiHeroku />, name: "Heroku" },
-                  { icon: <SiNetlify />, name: "Netlify" },
+                  { icon: <SiDocker />, name: "Docker" },
+                  { icon: <SiRedis />, name: "Redis" },
                   { icon: <SiFigma />, name: "Figma" },
                 ]}
               ></SkillCard>
