@@ -5,7 +5,7 @@ import ProjectHeader from "../Components/Projects/ProjectHeader";
 import TechOffersRepo from "../Resources/Images/TechOffersRepo.PNG";
 import GivingCoupons from "../Resources/Images/GivingCoupons.PNG";
 import HangmanImage from "../Resources/Images/HangmanImage.PNG";
-import PersonalPortfolioImage from "../Resources/Images/PersonalPortfolioImage.PNG";
+import IQBooster from "../Resources/Images/IQBooster.PNG";
 
 function Projects() {
   const projectObjectArray = [
@@ -46,11 +46,11 @@ function Projects() {
       githubLink: "https://github.com/BryannYeap/Hangman---ReactJS",
     },
     {
-      title: "Personal Portfolio Website",
-      image: PersonalPortfolioImage,
-      text: "This portfolio website itself was built using ReactJS, Bootstrap, and some custom CSS styling. This was deployed on GitHub using GitHub Pages.",
-      projectLink: "https://bryannyeap.github.io/",
-      githubLink: "https://github.com/BryannYeap/BryannYeap.github.io",
+      title: "IQBooster",
+      image: IQBooster,
+      text: "This web application is a project from my first hackathon. It was also my first experience with Socket.IO. I programmed the backend in Node.js and Express.js, and deployed it with Render. I also contributed to the frontend in ReactJS and Vite, which was deployed using Vercel. The website has both multiplayer and single player capabilities, as well as in-game audio and CSS animations made with key frames.",
+      projectLink: "https://spam2k24-main-nine.vercel.app/",
+      githubLink: "https://github.com/orgs/hacknroll24/repositories",
     },
   ];
 
